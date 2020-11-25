@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "lesson241120205": {
+    "lesson25112020": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/lesson-2-task-15",
+            "outputPath": "dist/lesson25112020",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "lesson-2-task-15:build"
+            "browserTarget": "lesson25112020:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "lesson-2-task-15:build:production"
+              "browserTarget": "lesson25112020:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "lesson-2-task-15:build"
+            "browserTarget": "lesson25112020:build"
           }
         },
         "test": {
@@ -110,15 +110,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "lesson-2-task-15:serve"
+            "devServerTarget": "lesson25112020:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "lesson-2-task-15:serve:production"
+              "devServerTarget": "lesson25112020:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "lesson-2-task-15"
+  "defaultProject": "lesson25112020"
 }
