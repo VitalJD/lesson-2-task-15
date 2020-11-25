@@ -1,4 +1,4 @@
-# Lesson25112020
+# Lesson-2-task-15
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
 
